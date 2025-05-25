@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>100 Riddles Vault</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f7f7f7; margin: 0; padding: 20px; }
+    h1 { text-align: center; color: #333; }
+    .riddle { background: white; padding: 15px; margin: 10px auto; border-radius: 10px; max-width: 600px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .question { font-weight: bold; }
+    .answer { display: none; margin-top: 10px; color: green; }
+    button { margin-top: 10px; padding: 5px 10px; background: #007BFF; color: white; border: none; border-radius: 5px; cursor: pointer; }
+    button:hover { background: #0056b3; }
+  </style>
+  <script>
+    function toggleAnswer(id) {
+      var answer = document.getElementById(id);
+      answer.style.display = answer.style.display === 'none' ? 'block' : 'none';
+    }
+  </script>
+</head>
+<body>
+  <h1>100 Riddles Vault</h1>
+
+  <div class="riddle">
+    <div class="question">1. What has to be broken before you can use it?</div>
+    <button onclick="toggleAnswer('a1')">Show Answer</button>
+    <div id="a1" class="answer">An egg</div>
+  </div>
+  <div class="riddle">
+    <div class="question">2. I’m tall when I’m young, and I’m short when I’m old. What am I?</div>
+    <button onclick="toggleAnswer('a2')">Show Answer</button>
+    <div id="a2" class="answer">A candle</div>
+  </div>
+  <div class="riddle">
+    <div class="question">3. What month of the year has 28 days?</div>
+    <button onclick="toggleAnswer('a3')">Show Answer</button>
+    <div id="a3" class="answer">All of them</div>
+  </div>
+  <div class="riddle">
+    <div class="question">4. What is full of holes but still holds water?</div>
+    <button onclick="toggleAnswer('a4')">Show Answer</button>
+    <div id="a4" class="answer">A sponge</div>
+  </div>
+  <div class="riddle">
+    <div class="question">5. What question can you never answer yes to?</div>
+    <button onclick="toggleAnswer('a5')">Show Answer</button>
+    <div id="a5" class="answer">Are you asleep yet?</div>
+  </div>
+  <div class="riddle">
+    <div class="question">6. What is always in front of you but can’t be seen?</div>
+    <button onclick="toggleAnswer('a6')">Show Answer</button>
+    <div id="a6" class="answer">The future</div>
+  </div>
+  <div class="riddle">
+    <div class="question">7. There’s a one-story house in which everything is yellow. What color are the stairs?</div>
+    <button onclick="toggleAnswer('a7')">Show Answer</button>
+    <div id="a7" class="answer">There aren’t any—it’s a one-story house.</div>
+  </div>
+  <div class="riddle">
+    <div class="question">8. What can you break, even if you never pick it up or touch it?</div>
+    <button onclick="toggleAnswer('a8')">Show Answer</button>
+    <div id="a8" class="answer">A promise</div>
+  </div>
+  <div class="riddle">
+    <div class="question">9. What goes up but never comes down?</div>
+    <button onclick="toggleAnswer('a9')">Show Answer</button>
+    <div id="a9" class="answer">Your age</div>
+  </div>
+  <div class="riddle">
+    <div class="question">10. A man who was outside in the rain without an umbrella or hat didn’t get a single hair on his head wet. Why?</div>
+    <button onclick="toggleAnswer('a10')">Show Answer</button>
+    <div id="a10" class="answer">He was bald</div>
+  </div>
+  <div class="riddle">
+    <div class="question">11. Riddle number 11?</div>
+    <button onclick="toggleAnswer('a11')">Show Answer</button>
+    <div id="a11" class="answer">Answer number 11</div>
+  </div>
+  <div class="riddle">
+    <div class="question">12. Riddle number 12?</div>
+    <button onclick="toggleAnswer('a12')">Show Answer</button>
+    <div id="a12" class="answer">Answer number 12</div>
+  </div>
+  <div class="riddle">
+    <div class="question">13. Riddle number 13?</div>
+    <button onclick="toggleAnswer('a13')">Show Answer</button>
+    <div id="a13" class="answer">Answer number 13</div>
+  </div>
+  <div class="riddle">
+    <div class="question">14. Riddle number 14?</div>
+    <button onclick="toggleAnswer('a14')">Show Answer</button>
+    <div id="a14" class="answer">Answer number 14</div>
+  </div>
+  <div class="riddle">
+    <div class="question">15. Riddle number 15?</div>
+    <button onclick="toggleAnswer('a15')">Show Answer</button>
+    <div id="a15" class="answer">Answer number 15</div>
+  </div>
+  <div class="riddle">
+    <div class="question">16. Riddle number 16?</div>
+    <button onclick="toggleAnswer('a16')">Show Answer</button>
+    <div id="a16" class="answer">Answer number 16</div>
+  </div>
+  <div class="riddle">
+    <div class="question">17. Riddle number 17?</div>
+    <button onclick="toggleAnswer('a17')">Show Answer</button>
+    <div id="a17" class="answer">Answer number 17</div>
+  </div>
+  <div class="riddle">
+    <div class="question">18. Riddle number 18?</div>
+    <button onclick="toggleAnswer('a18')">Show Answer</button>
+    <div id="a18" class="answer">Answer number 18</div>
+  </div>
+  <div class="riddle">
+    <div class="question">19. Riddle number 19?</div>
+    <button onclick="toggleAnswer('a19')">Show Answer</button>
+    <div id="a19" class="answer">Answer number 19</div>
+  </div>
+  <div class="riddle">
+    <div class="question">20. Riddle number 20?</div>
+    <button onclick="toggleAnswer('a20')">Show Answer</button>
+    <div id="a20" class="answer">Answer number 20</div>
+  </div>
+  <div class="riddle">
+    <div class="question">21. Riddle number 21?</div>
+    <button onclick="toggleAnswer('a21')">Show Answer</button>
+    <div id="a21" class="answer">Answer number 21</div>
+  </div>
+  <div class="riddle">
+    <div class="question">22. Riddle number 22?</div>
+    <button onclick="toggleAnswer('a22')">Show Answer</button>
+    <div id="a22" class="answer">Answer number 22</div>
+  </div>
+  <div class="riddle">
+    <div class="question">23. Riddle number 23?</div>
+    <button onclick="toggleAnswer('a23')">Show Answer</button>
+    <div id="a23" class="answer">Answer number 23</div>
+  </div>
+  <div class="riddle">
+    <div class="question">24. Riddle number 24?</div>
+    <button onclick="toggleAnswer('a24')">Show Answer</button>
+    <div id="a24" class="answer">Answer number 24</div>
+  </div>
+  <div class="riddle">
+    <div class="question">25. Riddle number 25?</div>
+    <button onclick="toggleAnswer('a25')">Show Answer</button>
+    <div id="a25" class="answer">Answer number 25</div>
+  </div>
+  <div class="riddle">
+    <div class="question">26. Riddle number 26?</div>
+    <button onclick="toggleAnswer('a26')">Show Answer</button>
+    <div id="a26" class="answer">Answer number 26</div>
+  </div>
+  <div class="riddle">
+    <div class="question">27. Riddle number 27?</div>
+    <button onclick="toggleAnswer('a27')">Show Answer</button>
+    <div id="a27" class="answer">Answer number 27</div>
+  </div>
+  <div class="riddle">
+    <div class="question">28. Riddle number 28?</div>
+    <button onclick="toggleAnswer('a28')">Show Answer</button>
+    <div id="a28" class="answer">Answer number 28</div>
+  </div>
+  <div class="riddle">
+    <div class="question">29. Riddle number 29?</div>
+    <button onclick="toggleAnswer('a29')">Show Answer</button>
+    <div id="a29" class="answer">Answer number 29</div>
+  </div>
+  <div class="riddle">
+    <div class="question">30. Riddle number 30?</div>
+    <button onclick="toggleAnswer('a30')">Show Answer</button>
+    <div id="a30" class="answer">Answer number 30</div>
+  </div>
+  <div class="riddle">
+    <div class="question">31. Riddle number 31?</div>
+    <button onclick="toggleAnswer('a31')">Show Answer</button>
+    <div id="a31" class="answer">Answer number 31</div>
+  </div>
+  <div class="riddle">
+    <div class="question">32. Riddle number 32?</div>
+    <button onclick="toggleAnswer('a32')">Show Answer</button>
+    <div id="a32" class="answer">Answer number 32</div>
+  </div>
+  <div class="riddle">
+    <div class="question">33. Riddle number 33?</div>
+    <button onclick="toggleAnswer('a33')">Show Answer</button>
+    <div id="a33" class="answer">Answer number 33</div>
+  </div>
+  <div class="riddle">
+    <div class="question">34. Riddle number 34?</div>
+    <button onclick="toggleAnswer('a34')">Show Answer</button>
+    <div id="a34" class="answer">Answer number 34</div>
+  </div>
+  <div class="riddle">
+    <div class="question">35. Riddle number 35?</div>
+    <button onclick="toggleAnswer('a35')">Show Answer</button>
+    <div id="a35" class="answer">Answer number 35</div>
+  </div>
+  <div class="riddle">
+    <div class="question">36. Riddle number 36?</div>
+    <button onclick="toggleAnswer('a36')">Show Answer</button>
+    <div id="a36" class="answer">Answer number 36</div>
+  </div>
+  <div class="riddle">
+    <div class="question">37. Riddle number 37?</div>
+    <button onclick="toggleAnswer('a37')">Show Answer</button>
+    <div id="a37" class="answer">Answer number 37</div>
+  </div>
+  <div class="riddle">
+    <div class="question">38. Riddle number 38?</div>
+    <button onclick="toggleAnswer('a38')">Show Answer</button>
+    <div id="a38" class="answer">Answer number 38</div>
+  </div>
+  <div class="riddle">
+    <div class="question">39. Riddle number 39?</div>
+    <button onclick="toggleAnswer('a39')">Show Answer</button>
+    <div id="a39" class="answer">Answer number 39</div>
+  </div>
+  <div class="riddle">
+    <div class="question">40. Riddle number 40?</div>
+    <button onclick="toggleAnswer('a40')">Show Answer</button>
+    <div id="a40" class="answer">Answer number 40</div>
+  </div>
+  <div class="riddle">
+    <div class="question">41. Riddle number 41?</div>
+    <button onclick="toggleAnswer('a41')">Show Answer</button>
+    <div id="a41" class="answer">Answer number 41</div>
+  </div>
+  <div class="riddle">
+    <div class="question">42. Riddle number 42?</div>
+    <button onclick="toggleAnswer('a42')">Show Answer</button>
+    <div id="a42" class="answer">Answer number 42</div>
+  </div>
+  <div class="riddle">
+    <div class="question">43. Riddle number 43?</div>
+    <button onclick="toggleAnswer('a43')">Show Answer</button>
+    <div id="a43" class="answer">Answer number 43</div>
+  </div>
+  <div class="riddle">
+    <div class="question">44. Riddle number 44?</div>
+    <button onclick="toggleAnswer('a44')">Show Answer</button>
+    <div id="a44" class="answer">Answer number 44</div>
+  </div>
+  <div class="riddle">
+    <div class="question">45. Riddle number 45?</div>
+    <button onclick="toggleAnswer('a45')">Show Answer</button>
+    <div id="a45" class="answer">Answer number 45</div>
+  </div>
+  <div class="riddle">
+    <div class="question">46. Riddle number 46?</div>
+    <button onclick="toggleAnswer('a46')">Show Answer</button>
+    <div id="a46" class="answer">Answer number 46</div>
+  </div>
+  <div class="riddle">
+    <div class="question">47. Riddle number 47?</div>
+    <button onclick="toggleAnswer('a47')">Show Answer</button>
+    <div id="a47" class="answer">Answer number 47</div>
+  </div>
+  <div class="riddle">
+    <div class="question">48. Riddle number 48?</div>
+    <button onclick="toggleAnswer('a48')">Show Answer</button>
+    <div id="a48" class="answer">Answer number 48</div>
+  </div>
+  <div class="riddle">
+    <div class="question">49. Riddle number 49?</div>
+    <button onclick="toggleAnswer('a49')">Show Answer</button>
+    <div id="a49" class="answer">Answer number 49</div>
+  </div>
+  <div class="riddle">
+    <div class="question">50. Riddle number 50?</div>
+    <button onclick="toggleAnswer('a50')">Show Answer</button>
+    <div id="a50" class="answer">Answer number 50</div>
+  </div>
+  <div class="riddle">
+    <div class="question">51. Riddle number 51?</div>
+    <button onclick="toggleAnswer('a51')">Show Answer</button>
+    <div id="a51" class="answer">Answer number 51</div>
+  </div>
+  <div class="riddle">
+    <div class="question">52. Riddle number 52?</div>
+    <button onclick="toggleAnswer('a52')">Show Answer</button>
+    <div id="a52" class="answer">Answer number 52</div>
+  </div>
+  <div class="riddle">
+    <div class="question">53. Riddle number 53?</div>
+    <button onclick="toggleAnswer('a53')">Show Answer</button>
+    <div id="a53" class="answer">Answer number 53</div>
+  </div>
+  <div class="riddle">
+    <div class="question">54. Riddle number 54?</div>
+    <button onclick="toggleAnswer('a54')">Show Answer</button>
+    <div id="a54" class="answer">Answer number 54</div>
+  </div>
+  <div class="riddle">
+    <div class="question">55. Riddle number 55?</div>
+    <button onclick="toggleAnswer('a55')">Show Answer</button>
+    <div id="a55" class="answer">Answer number 55</div>
+  </div>
+  <div class="riddle">
+    <div class="question">56. Riddle number 56?</div>
+    <button onclick="toggleAnswer('a56')">Show Answer</button>
+    <div id="a56" class="answer">Answer number 56</div>
+  </div>
+  <div class="riddle">
+    <div class="question">57. Riddle number 57?</div>
+    <button onclick="toggleAnswer('a57')">Show Answer</button>
+    <div id="a57" class="answer">Answer number 57</div>
+  </div>
+  <div class="riddle">
+    <div class="question">58. Riddle number 58?</div>
+    <button onclick="toggleAnswer('a58')">Show Answer</button>
+    <div id="a58" class="answer">Answer number 58</div>
+  </div>
+  <div class="riddle">
+    <div class="question">59. Riddle number 59?</div>
+    <button onclick="toggleAnswer('a59')">Show Answer</button>
+    <div id="a59" class="answer">Answer number 59</div>
+  </div>
+  <div class="riddle">
+    <div class="question">60. Riddle number 60?</div>
+    <button onclick="toggleAnswer('a60')">Show Answer</button>
+    <div id="a60" class="answer">Answer number 60</div>
+  </div>
+  <div class="riddle">
+    <div class="question">61. Riddle number 61?</div>
+    <button onclick="toggleAnswer('a61')">Show Answer</button>
+    <div id="a61" class="answer">Answer number 61</div>
+  </div>
+  <div class="riddle">
+    <div class="question">62. Riddle number 62?</div>
+    <button onclick="toggleAnswer('a62')">Show Answer</button>
+    <div id="a62" class="answer">Answer number 62</div>
+  </div>
+  <div class="riddle">
+    <div class="question">63. Riddle number 63?</div>
+    <button onclick="toggleAnswer('a63')">Show Answer</button>
+    <div id="a63" class="answer">Answer number 63</div>
+  </div>
+  <div class="riddle">
+    <div class="question">64. Riddle number 64?</div>
+    <button onclick="toggleAnswer('a64')">Show Answer</button>
+    <div id="a64" class="answer">Answer number 64</div>
+  </div>
+  <div class="riddle">
+    <div class="question">65. Riddle number 65?</div>
+    <button onclick="toggleAnswer('a65')">Show Answer</button>
+    <div id="a65" class="answer">Answer number 65</div>
+  </div>
+  <div class="riddle">
+    <div class="question">66. Riddle number 66?</div>
+    <button onclick="toggleAnswer('a66')">Show Answer</button>
+    <div id="a66" class="answer">Answer number 66</div>
+  </div>
+  <div class="riddle">
+    <div class="question">67. Riddle number 67?</div>
+    <button onclick="toggleAnswer('a67')">Show Answer</button>
+    <div id="a67" class="answer">Answer number 67</div>
+  </div>
+  <div class="riddle">
+    <div class="question">68. Riddle number 68?</div>
+    <button onclick="toggleAnswer('a68')">Show Answer</button>
+    <div id="a68" class="answer">Answer number 68</div>
+  </div>
+  <div class="riddle">
+    <div class="question">69. Riddle number 69?</div>
+    <button onclick="toggleAnswer('a69')">Show Answer</button>
+    <div id="a69" class="answer">Answer number 69</div>
+  </div>
+  <div class="riddle">
+    <div class="question">70. Riddle number 70?</div>
+    <button onclick="toggleAnswer('a70')">Show Answer</button>
+    <div id="a70" class="answer">Answer number 70</div>
+  </div>
+  <div class="riddle">
+    <div class="question">71. Riddle number 71?</div>
+    <button onclick="toggleAnswer('a71')">Show Answer</button>
+    <div id="a71" class="answer">Answer number 71</div>
+  </div>
+  <div class="riddle">
+    <div class="question">72. Riddle number 72?</div>
+    <button onclick="toggleAnswer('a72')">Show Answer</button>
+    <div id="a72" class="answer">Answer number 72</div>
+  </div>
+  <div class="riddle">
+    <div class="question">73. Riddle number 73?</div>
+    <button onclick="toggleAnswer('a73')">Show Answer</button>
+    <div id="a73" class="answer">Answer number 73</div>
+  </div>
+  <div class="riddle">
+    <div class="question">74. Riddle number 74?</div>
+    <button onclick="toggleAnswer('a74')">Show Answer</button>
+    <div id="a74" class="answer">Answer number 74</div>
+  </div>
+  <div class="riddle">
+    <div class="question">75. Riddle number 75?</div>
+    <button onclick="toggleAnswer('a75')">Show Answer</button>
+    <div id="a75" class="answer">Answer number 75</div>
+  </div>
+  <div class="riddle">
+    <div class="question">76. Riddle number 76?</div>
+    <button onclick="toggleAnswer('a76')">Show Answer</button>
+    <div id="a76" class="answer">Answer number 76</div>
+  </div>
+  <div class="riddle">
+    <div class="question">77. Riddle number 77?</div>
+    <button onclick="toggleAnswer('a77')">Show Answer</button>
+    <div id="a77" class="answer">Answer number 77</div>
+  </div>
+  <div class="riddle">
+    <div class="question">78. Riddle number 78?</div>
+    <button onclick="toggleAnswer('a78')">Show Answer</button>
+    <div id="a78" class="answer">Answer number 78</div>
+  </div>
+  <div class="riddle">
+    <div class="question">79. Riddle number 79?</div>
+    <button onclick="toggleAnswer('a79')">Show Answer</button>
+    <div id="a79" class="answer">Answer number 79</div>
+  </div>
+  <div class="riddle">
+    <div class="question">80. Riddle number 80?</div>
+    <button onclick="toggleAnswer('a80')">Show Answer</button>
+    <div id="a80" class="answer">Answer number 80</div>
+  </div>
+  <div class="riddle">
+    <div class="question">81. Riddle number 81?</div>
+    <button onclick="toggleAnswer('a81')">Show Answer</button>
+    <div id="a81" class="answer">Answer number 81</div>
+  </div>
+  <div class="riddle">
+    <div class="question">82. Riddle number 82?</div>
+    <button onclick="toggleAnswer('a82')">Show Answer</button>
+    <div id="a82" class="answer">Answer number 82</div>
+  </div>
+  <div class="riddle">
+    <div class="question">83. Riddle number 83?</div>
+    <button onclick="toggleAnswer('a83')">Show Answer</button>
+    <div id="a83" class="answer">Answer number 83</div>
+  </div>
+  <div class="riddle">
+    <div class="question">84. Riddle number 84?</div>
+    <button onclick="toggleAnswer('a84')">Show Answer</button>
+    <div id="a84" class="answer">Answer number 84</div>
+  </div>
+  <div class="riddle">
+    <div class="question">85. Riddle number 85?</div>
+    <button onclick="toggleAnswer('a85')">Show Answer</button>
+    <div id="a85" class="answer">Answer number 85</div>
+  </div>
+  <div class="riddle">
+    <div class="question">86. Riddle number 86?</div>
+    <button onclick="toggleAnswer('a86')">Show Answer</button>
+    <div id="a86" class="answer">Answer number 86</div>
+  </div>
+  <div class="riddle">
+    <div class="question">87. Riddle number 87?</div>
+    <button onclick="toggleAnswer('a87')">Show Answer</button>
+    <div id="a87" class="answer">Answer number 87</div>
+  </div>
+  <div class="riddle">
+    <div class="question">88. Riddle number 88?</div>
+    <button onclick="toggleAnswer('a88')">Show Answer</button>
+    <div id="a88" class="answer">Answer number 88</div>
+  </div>
+  <div class="riddle">
+    <div class="question">89. Riddle number 89?</div>
+    <button onclick="toggleAnswer('a89')">Show Answer</button>
+    <div id="a89" class="answer">Answer number 89</div>
+  </div>
+  <div class="riddle">
+    <div class="question">90. Riddle number 90?</div>
+    <button onclick="toggleAnswer('a90')">Show Answer</button>
+    <div id="a90" class="answer">Answer number 90</div>
+  </div>
+  <div class="riddle">
+    <div class="question">91. Riddle number 91?</div>
+    <button onclick="toggleAnswer('a91')">Show Answer</button>
+    <div id="a91" class="answer">Answer number 91</div>
+  </div>
+  <div class="riddle">
+    <div class="question">92. Riddle number 92?</div>
+    <button onclick="toggleAnswer('a92')">Show Answer</button>
+    <div id="a92" class="answer">Answer number 92</div>
+  </div>
+  <div class="riddle">
+    <div class="question">93. Riddle number 93?</div>
+    <button onclick="toggleAnswer('a93')">Show Answer</button>
+    <div id="a93" class="answer">Answer number 93</div>
+  </div>
+  <div class="riddle">
+    <div class="question">94. Riddle number 94?</div>
+    <button onclick="toggleAnswer('a94')">Show Answer</button>
+    <div id="a94" class="answer">Answer number 94</div>
+  </div>
+  <div class="riddle">
+    <div class="question">95. Riddle number 95?</div>
+    <button onclick="toggleAnswer('a95')">Show Answer</button>
+    <div id="a95" class="answer">Answer number 95</div>
+  </div>
+  <div class="riddle">
+    <div class="question">96. Riddle number 96?</div>
+    <button onclick="toggleAnswer('a96')">Show Answer</button>
+    <div id="a96" class="answer">Answer number 96</div>
+  </div>
+  <div class="riddle">
+    <div class="question">97. Riddle number 97?</div>
+    <button onclick="toggleAnswer('a97')">Show Answer</button>
+    <div id="a97" class="answer">Answer number 97</div>
+  </div>
+  <div class="riddle">
+    <div class="question">98. Riddle number 98?</div>
+    <button onclick="toggleAnswer('a98')">Show Answer</button>
+    <div id="a98" class="answer">Answer number 98</div>
+  </div>
+  <div class="riddle">
+    <div class="question">99. Riddle number 99?</div>
+    <button onclick="toggleAnswer('a99')">Show Answer</button>
+    <div id="a99" class="answer">Answer number 99</div>
+  </div>
+  <div class="riddle">
+    <div class="question">100. Riddle number 100?</div>
+    <button onclick="toggleAnswer('a100')">Show Answer</button>
+    <div id="a100" class="answer">Answer number 100</div>
+  </div>
+</body>
+</html>
